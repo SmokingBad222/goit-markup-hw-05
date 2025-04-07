@@ -722,14 +722,21 @@ background-color: #31d0aa
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
 }
-.modal-close-btn:hover .modal-btn-icon{
+.modal-close-btn:focus {
     background-color: #404bbf;
     border: none;
+}
+
+.modal-close-btn:hover {
+    background-color: #404bbf;
+    border: none;
+}
+.modal-close-btn:hover .modal-btn-icon{
+    
     fill: #ffffff;
 }
 .modal-close-btn:focus .modal-btn-icon{
-    background-color: #404bbf;
-    border: none;
+    
     fill: #ffffff;
 }
 
