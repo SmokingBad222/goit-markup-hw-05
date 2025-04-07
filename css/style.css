@@ -880,10 +880,11 @@ border-color: #4D5AE5;
     margin-right: 8px;
     
     
-    display: inline-flex;
+    
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
     
     
 }
@@ -905,7 +906,7 @@ border-color: #4D5AE5;
     justify-content: center;
     align-items: center;
     fill: transparent;
-    display: inline-flex;
+    
     
 }
 .modal-check:checked + .modal-check-text span{
