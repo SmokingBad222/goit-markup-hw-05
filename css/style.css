@@ -32,6 +32,7 @@ button{
 
 img {
     display: block;
+    
 }
 
 /*----------------HEADER-------------------*/
@@ -602,7 +603,8 @@ background-color: #31d0aa
     border-radius: 4px;
 
 }
-.footer-form-subscribe-btn:hover .footer-form-subscribe-btn:focus{    background-color: #404BBF;
+.footer-form-subscribe-btn:hover, .footer-form-subscribe-btn:focus{ 
+       background-color: #404BBF;
 }
 .footer-form-input{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -826,7 +828,11 @@ background-color: #31d0aa
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.send-btn:hover .send-btn:focus{    background-color: #404BBF;
+.send-btn:hover {    
+    background-color: #404BBF;
+}
+.send-btn:focus{
+    background-color: #404BBF;
 }
 
 .modal-textarea{
